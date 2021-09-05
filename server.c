@@ -7,11 +7,17 @@
 //include Internet Protocol family of functions and structures to use to 
 //create sockets and etc
 #include <sys/socket.h>
-//macros and some special functions
+
+//macros such as EXIT_SUCCESS and EXIT_FAILURE
+//also the NULL pointer value is defined in this library
 #include <stdlib.h>
-//
+
+//netinet/in.h includes definitions for internet protocol functions
+// in_addri, sin_port, sin_addr, AF_INET
 #include <netinet/in.h>
+
 #include <string.h>
+//defining our own macro here
 #define PORT 8080
 
 int main(int argc, char const *argv[])
