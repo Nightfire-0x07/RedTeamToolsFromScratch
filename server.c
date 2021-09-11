@@ -1,6 +1,6 @@
 //unistd provides access to POSIX operating system API
 //made up mostly of system call wrapper functions such
-//as fork, pipe, I/O primitaves like read, write, close,
+//as fork, pipe, I/O primitives like read, write, close,
 //at etc.
 #include <unistd.h>
 #include <stdio.h>
