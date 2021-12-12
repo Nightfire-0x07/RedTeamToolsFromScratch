@@ -15,7 +15,7 @@
 int main()
 {
     struct ifaddrs *addresses;
-
+    //getaddrinfo() resolves the ip address into a struct addrinfo structure
     if(getifaddrs(&addresses) == -1){
         printf("Getifaddrs call failed\n");
         return -1; 

@@ -19,3 +19,9 @@ setcokopt() is used to change some soket options
 fcntol() (Berkeley sockets) and ioctlsocket() (winsock sockets) are alos used to 
 get and set some socket options
 
+
+Berkely socket networking programs use read() and write() -- which do not
+port to Winsock -- use send() recv() (other berkeley only ones are poll()
+and dup()
+
+
