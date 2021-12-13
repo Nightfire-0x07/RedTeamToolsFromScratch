@@ -1,6 +1,6 @@
 socket(): creates and initializes a new socket
-bind(): assocaites a socket with a perticular local IP address and port number
-listen(): is used on the server to cause a TCP socket to listen for new conncetions. 
+bind(): associates a socket with a particular local IP address and port number
+listen(): is used on the server to cause a TCP socket to listen for new connections. 
 connect() is used on the client to set the remote address and port. in the case
 of TCP, it also establishes a connection
 accept(): is used on the server to create a new socket for an incoming TCP 
@@ -15,7 +15,7 @@ and orderly connection teardown.
 select(): is used to wait for an event on one or more sockets.
 getnameinfo(): and getaddrinfo(): provide a protocol-independent manner of 
 working with hostnames and addresses 
-setcokopt() is used to change some soket options
-fcntol() (Berkeley sockets) and ioctlsocket() (winsock sockets) are alos used to 
+setsockopt() is used to change some socket options
+fcntl() (Berkeley sockets) and ioctlsocket() (winsock sockets) are also used to 
 get and set some socket options
 

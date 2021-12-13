@@ -5,7 +5,6 @@
  * certain things here for future programs related to the
  * TCP chat server*/
 
-
 #include <sys/socket.h>
 #include <netdb.h>
 #include <ifaddrs.h>
