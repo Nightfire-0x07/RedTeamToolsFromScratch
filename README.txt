@@ -1,1 +1,5 @@
 I am attempting to follow this list of pentesting tools (https://github.com/kurogai/100-redteam-projects) to create from scratch (mostly in C if I can), in order to better understand how these tools work as well as learn how to implement features into my own code going forward without having to rely on other tools. I will upload my code to this repository as I progress. The first two tools, the TCP server and client programs in C I needed to use a tutorial for, since I'm still unfamiliar with some of the libraries that are used. Most of my experience with C is using functions and structures from stdio.h and string.h as well as some Arduino usage, but with this list, I am attempting to master more of the C language. 
+
+Update: I've begun following "Hands-On Network Programming with C" as I needed more direct help
+with understanding the functions/libraries I was sort of blindly including but not understanding.
+It's a very helpful book and the examples are pretty much directly taken from it. Highly recommended!
